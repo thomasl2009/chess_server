@@ -9,7 +9,7 @@ public class SimpleServer
 {
     private ServerSocket server;
     private DataInputStream in1;
-    public static final int PORT = Integer.parseInt(System.getenv().getOrDefault("PORT", "3000"));
+    public static final int PORT = Integer.parseInt(System.getenv().getOrDefault("PORT", "5432"));
     public static final String STOP_STRING = "##";
     //ArrayList<Integer> rooms;
     private DataOutputStream out1;
